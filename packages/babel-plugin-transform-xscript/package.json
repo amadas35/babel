@@ -1,0 +1,40 @@
+{
+  "name": "@babel/plugin-transform-xscript",
+  "version": "7.16.1",
+  "description": "Transform XScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amadas35/babel.git",
+    "directory": "packages/babel-plugin-transform-xscript"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./lib/index.js",
+  "keywords": [
+    "babel-plugin",
+    "nexacro",
+    "xscript"
+  ],
+  "dependencies": {
+    "@babel/helper-create-class-features-plugin": "workspace:^",
+    "@babel/helper-plugin-utils": "workspace:^",
+    "@babel/plugin-syntax-xscript": "workspace:^"   
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/nexacro-parser": "workspace:^",
+    "@babel/core": "workspace:^",
+    "@babel/helper-plugin-test-runner": "workspace:^",
+    "@babel/traverse": "workspace:^",
+    "@babel/types": "workspace:^"
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "author": "donghu, oh (TOBESOFT)"
+}

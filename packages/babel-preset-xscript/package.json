@@ -1,0 +1,38 @@
+{
+  "name": "@babel/preset-xscript",
+  "version": "7.16.5",
+  "description": "Babel preset for XScript.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amadas35/babel.git",
+    "directory": "packages/babel-preset-xscript"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./lib/index.js",
+  "keywords": [
+    "babel-preset",
+    "nexacro",
+    "xscript"
+  ],
+  "dependencies": {
+    "@babel/helper-plugin-utils": "workspace:^",
+    "@babel/helper-validator-option": "workspace:^",
+    "@babel/plugin-transform-typescript": "workspace:^"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "workspace:^",
+    "@babel/helper-plugin-test-runner": "workspace:^"
+  },
+  "homepage": "",
+  "bugs": "",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "author": "donghu, oh (TOBESOFT)"
+}

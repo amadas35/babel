@@ -1,0 +1,34 @@
+{
+  "name": "@babel/plugin-syntax-xscript",
+  "version": "7.16.5",
+  "description": "Allow parsing of the nexacro xscript syntax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amadas35/babel.git",
+    "directory": "packages/babel-plugin-syntax-xscript"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./lib/index.js",
+  "keywords": [
+    "babel-plugin",
+    "nexacro",
+    "xscript"
+  ],
+  "dependencies": {
+    "@babel/helper-plugin-utils": "workspace:^"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "workspace:^"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "author": "donghu, oh (TOBESOFT)"
+}

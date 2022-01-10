@@ -1,10 +1,10 @@
 {
-  "name": "@babel/parser",
-  "version": "7.16.7",
-  "description": "A JavaScript parser",
-  "author": "The Babel Team (https://babel.dev/team)",
-  "homepage": "https://babel.dev/docs/en/next/babel-parser",
-  "bugs": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A+parser+%28babylon%29%22+is%3Aopen",
+  "name": "@babel/nexacro-parser",
+  "version": "7.16.6",
+  "description": "A JavaScript parser for Nexacro XScript",
+  "author": "Donghu, Oh (TOBESOFT)",
+  "homepage": "",
+  "bugs": "",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -13,14 +13,14 @@
     "babel",
     "javascript",
     "parser",
-    "tc39",
-    "ecmascript",
-    "@babel/parser"
+    "nexacro",
+    "xscript",
+    "@babel/nexacro-parser"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/babel/babel.git",
-    "directory": "packages/babel-parser"
+    "url": "https://github.com/amadas35/babel.git",
+    "directory": "packages/babel-nexacro-parser"
   },
   "main": "./lib/index.js",
   "types": "./typings/babel-parser.d.ts",
@@ -38,17 +38,5 @@
     "@babel/helper-validator-identifier": "workspace:^",
     "charcodes": "^0.2.0"
   },
-  "bin": "./bin/babel-parser.js",
-  "conditions": {
-    "BABEL_8_BREAKING": [
-      null,
-      {
-        "exports": null
-      }
-    ]
-  },
-  "exports": {
-    ".": "./lib/index.js",
-    "./package.json": "./package.json"
-  }
+  "bin": "./bin/babel-parser.js"
 }

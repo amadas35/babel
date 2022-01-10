@@ -79,6 +79,7 @@
     "./packages/babel-plugin-syntax-record-and-tuple/src/**/*.ts",
     "./packages/babel-plugin-syntax-throw-expressions/src/**/*.ts",
     "./packages/babel-plugin-syntax-typescript/src/**/*.ts",
+    "./packages/babel-plugin-syntax-xscript/src/**/*.ts",
     "./packages/babel-plugin-transform-arrow-functions/src/**/*.ts",
     "./packages/babel-plugin-transform-async-to-generator/src/**/*.ts",
     "./packages/babel-plugin-transform-block-scoped-functions/src/**/*.ts",
@@ -131,10 +132,12 @@
     "./packages/babel-plugin-transform-typescript/src/**/*.ts",
     "./packages/babel-plugin-transform-unicode-escapes/src/**/*.ts",
     "./packages/babel-plugin-transform-unicode-regex/src/**/*.ts",
+    "./packages/babel-plugin-transform-xscript/src/**/*.ts",
     "./packages/babel-preset-env/src/**/*.ts",
     "./packages/babel-preset-flow/src/**/*.ts",
     "./packages/babel-preset-react/src/**/*.ts",
     "./packages/babel-preset-typescript/src/**/*.ts",
+    "./packages/babel-preset-xscript/src/**/*.ts",
     "./packages/babel-register/src/**/*.ts",
     "./packages/babel-standalone/src/**/*.ts",
     "./packages/babel-template/src/**/*.ts",
@@ -379,6 +382,9 @@
       "@babel/plugin-syntax-typescript": [
         "./packages/babel-plugin-syntax-typescript/src"
       ],
+      "@babel/plugin-syntax-xscript": [
+        "./packages/babel-plugin-syntax-xscript/src"
+      ],
       "@babel/plugin-transform-arrow-functions": [
         "./packages/babel-plugin-transform-arrow-functions/src"
       ],
@@ -535,6 +541,9 @@
       "@babel/plugin-transform-unicode-regex": [
         "./packages/babel-plugin-transform-unicode-regex/src"
       ],
+      "@babel/plugin-transform-xscript": [
+        "./packages/babel-plugin-transform-xscript/src"
+      ],
       "@babel/preset-env": [
         "./packages/babel-preset-env/src"
       ],
@@ -546,6 +555,9 @@
       ],
       "@babel/preset-typescript": [
         "./packages/babel-preset-typescript/src"
+      ],
+      "@babel/preset-xscript": [
+        "./packages/babel-preset-xscript/src"
       ],
       "@babel/register": [
         "./packages/babel-register/src"

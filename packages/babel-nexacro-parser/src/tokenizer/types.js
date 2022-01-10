@@ -311,6 +311,8 @@ export const tt: { [name: string]: TokenType } = {
   _opaque: createKeywordLike("opaque", { startsExpr }),
   // end: isFlowInterfaceOrTypeOrOpaque
   name: createToken("name", { startsExpr }),
+  // nexacro plugin
+  _include: createKeywordLike("include", { startsExpr }),
   // end: isIdentifier
 
   string: createToken("string", { startsExpr }),
@@ -408,6 +410,10 @@ export function tokenIsRightAssociative(token: TokenType): boolean {
 
 export function tokenIsTemplate(token: TokenType): boolean {
   return token >= tt.templateTail && token <= tt.templateNonTail;
+}
+
+export function tokenIsNexacroIncludeKeyword(token: TokenType): boolean {
+  return token == tt._include;
 }
 
 export function getExportedToken(token: TokenType): ExportedTokenType {

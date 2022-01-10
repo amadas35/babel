@@ -1636,3 +1636,19 @@ export type ParseClassMemberState = {|
   hadConstructor: boolean,
   hadSuperClass: boolean,
 |};
+
+export type NexacroIncludeDeclaration = NodeBase & {
+  type: "NexacroIncludeDeclaration",
+  specifiers: NexacroIncludeSpecifier,
+  source: Literal,
+
+  includeKind: "value",
+};
+
+export type NexacroIncludeSpecifier = ModuleSpecifier & {
+  type: "NexacroIncludeSpecifier",
+  include: StringLiteral,
+
+  includeKind: "value",
+};
+

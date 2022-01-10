@@ -157,6 +157,7 @@ export type ParserPlugin =
   | "topLevelAwait"
   | "typescript"
   | "v8intrinsic"
+  | "xscript"
   | ParserPluginWithOptions;
 
 export type ParserPluginWithOptions =
